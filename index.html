@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-<title>Title of the document</title>
-</head>
-<body>
-<div class="main-container">
-    <button class="random-button" id="random-button"> randomize ! </button>
-    <div class="addons-container">
-        <img id="addons" class="addons-image" src="" alt="accessories" />
-        <div class="caroussel-buttonn">
-            <button id="0prevbutton"></button>
-            <button id="0nextbutton"></button>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>generator-final-code</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header-text">
+      <i
+        >outfits 2 <br />
+        design✨</i
+      >
+    </header>
+
+    <div class="main-container">
+      <button class="random-button" id="random-btn">randomize!</button>
+      <div id="confetti"></div>
+      <!-- Container for the confetti -->
+      <div class="addons-container">
+        <img id="addOns" class="addons-image" src="" alt="accessories" />
+        <div class="carousel-buttons">
+          <button id="0prevBtn">←</button>
+          <button id="0nextBtn">→</button>
         </div>
-    </div>    
-</div>
+      </div>
+      <div class="tops-container">
+        <img id="tops" class="tops-image" src="" alt="tops" />
+        <div class="carousel-buttons">
+          <button id="1prevBtn">←</button>
+          <button id="1nextBtn">→</button>
+        </div>
+      </div>
 
-</body>
-
+      <div class="bottoms-container">
+        <img id="bottoms" class="bottoms-image" src="" alt="bottoms" />
+        <div class="carousel-buttons">
+          <button id="2prevBtn">←</button>
+          <button id="2nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
